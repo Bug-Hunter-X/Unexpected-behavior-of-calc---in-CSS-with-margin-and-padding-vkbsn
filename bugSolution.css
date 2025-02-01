@@ -1,0 +1,3 @@
+To resolve the issue with the `calc()` function, ensure that all units within the calculation are consistent and that the calculation order is correct.  You might need to use parentheses to explicitly define the calculation order. For example, instead of `margin: calc(100vw - 100px);`, try `margin: calc((100vw - 100px));` to ensure that the subtraction happens before the calculation is applied to the `margin` property.
+
+Avoid mixing different units within a single `calc()` expression unless absolutely necessary. If you must mix units, ensure that the conversion between units is handled correctly. Using a preprocessor like Sass or Less can sometimes help manage the complexities of unit handling and `calc()` calculations.
