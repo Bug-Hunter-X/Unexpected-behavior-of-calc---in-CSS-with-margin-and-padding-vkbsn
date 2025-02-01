@@ -1,0 +1,1 @@
+The CSS property `calc()` is not working as expected when combined with other properties, such as `margin` or `padding`. For instance, setting `margin: calc(100vw - 100px);` might result in unexpected spacing or layout issues. This can occur due to the way the `calc()` function interacts with other CSS properties and units, leading to calculation errors or unexpected behavior.
